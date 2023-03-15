@@ -6,21 +6,21 @@ public class Atividade04 {
 	public static void main(String args[]) 
 	{
 
-		double n1, n2, n3, n4, resul;
+		float n1, n2, n3, n4, resul;
 		
-		Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in)
 		
 		System.out.println("Insira o valor 1:");
-		n1 = leia.nextDouble();
+		n1 = leia.nextFloat();
 		
 		System.out.println("Insira o valor 2:");
-		n2 = leia.nextDouble();
+		n2 = leia.nextFloat();
 		
 		System.out.println("Insira o valor 3:");
-		n3 = leia.nextDouble();
+		n3 = leia.nextFloat();
 		
 		System.out.println("Insira o valor 4:");
-		n4 = leia.nextDouble();
+		n4 = leia.nextFloat();
 		
 		resul = (n1*n2)-(n3*n4)
 				

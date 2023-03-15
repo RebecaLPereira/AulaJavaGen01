@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Atividade1 {
 	public static void main(String args[])
 	{
-		double salario, abono, valorfinal;
+		float salario, abono, valorfinal;
 		
 		
 		Scanner leia = new Scanner(System.in);
 		
 
 		System.out.println("Insira o valor do salário:");
-		salario = leia.nextDouble();
+		salario = leia.nextFloat();
 		System.out.println("Insira o valor do abono:");
-		abono = leia.nextDouble();
+		abono = leia.nextFloat();
 		
 		valorfinal = salario+abono;
 		
